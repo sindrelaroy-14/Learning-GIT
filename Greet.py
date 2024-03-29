@@ -1,8 +1,9 @@
-def hello(name):
-    print("HELLO "+name, end = "\n")
+def hello(name, message):
+    print("HELLO "+name, end = "\n"+message+"!")
 
 def main():
     name = input("Enter your name = ")
-    hello(name)
+    message = input("Enter your message = ")
+    hello(name, message)
 
 main()
